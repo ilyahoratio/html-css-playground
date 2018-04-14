@@ -1,0 +1,73 @@
+.right-container {
+  width: 35%;
+  background-color: white;
+  height: 100%;
+
+  .logo-text {
+    font-size: 45px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 75px;
+    font-family: Unica One, cursive;
+  }
+
+  .item-image {
+    overflow: visible;
+    background: url("../img/girl-rotary-phone.jpg") no-repeat;
+    width: 150%;
+    height: 485px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .item-pros {
+    background-color: pink;
+    width: 304px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+    left: 20px;
+    z-index: 2;
+
+    .item-pros-box {
+      width: 150px;
+      height: 150px;
+      border: 1px solid lightgray;
+      background-color: white;
+      position: relative;
+
+      i {
+        float: right;
+        padding: 20px;
+        font-size: 30px;
+        text-align: right;
+        color: purple;
+      }
+
+      .item-pros-text {
+        clear: right;
+        width: 90px;
+        padding: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 15px;
+      }
+
+      &:hover {
+        background-color: purple;
+        bottom: 10px;
+        left: 10px;
+        z-index: 3;
+
+        i {
+          color: lightgray;
+        }
+
+        .item-pros-text {
+          color: white;
+        }
+      }
+    }
+  }
+}

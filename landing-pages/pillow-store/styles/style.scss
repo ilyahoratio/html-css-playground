@@ -1,0 +1,20 @@
+@import "./normalize.scss";
+@import "./right-container.scss";
+@import "./middle-container.scss";
+@import "./left-container.scss";
+@import "./footer.scss";
+
+body {
+  font-family: sans-serif;
+  width: 100%;
+}
+
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  // background-color: lightblue;
+}
+
+#main-wrapper-flex {
+  display: flex;
+}

@@ -1,0 +1,26 @@
+$pink-color: #f16d7f;
+$black-color: #222222;
+$main-font: Lato, sans-serif;
+$mosaic-width: 560px;
+@import "./normalize.scss";
+@import "./header.scss";
+@import "./top-nav.scss";
+@import "./top-slider.scss";
+@import "./mosaic.scss";
+@import "./featured-items.scss";
+@import "./banner.scss";
+@import "./subscribe.scss";
+@import "./footer.scss";
+@import "./dropdown-top.scss";
+@import "./cart-dropdown.scss";
+@import "./checkout/_under-menu.scss";
+@import "./checkout/_checkout.scss";
+
+body {
+  font-family: $main-font;
+  overflow-x: hidden;
+}
+
+#wrapper {
+  width: 100%;
+}

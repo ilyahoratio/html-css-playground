@@ -1,0 +1,45 @@
+.slider-wrapper {
+  width: 100%;
+  background-color: #e8e8e8;
+  overflow-x: hidden;
+  position: relative;
+  top: -50px;
+  z-index: -1;
+}
+
+.slider {
+  width: 1140px;
+  margin: 0 auto;
+  background: url("images/slider-pic.jpg") no-repeat;
+  overflow-x: hidden;
+  background-size: cover;
+  background-position: -227px -2px;
+  height: 665px;
+}
+
+.slider-text {
+  text-transform: uppercase;
+  width: 489px;
+  padding-left: 12px;
+  border-left: 12px solid #f16d7f;
+  font-family: $main-font;
+  color: $black-color;
+  font-size: 59.95px;
+  font-weight: 900;
+  position: relative;
+  top: 273px;
+  left: 3px;
+  line-height: 0.8;
+  letter-spacing: 1.5px;
+
+  .slider-second-line {
+    font-size: 40px;
+    letter-spacing: 1px;
+    display: inline-block;
+
+    .slider-pink-word {
+      color: #f16d7f;
+      letter-spacing: 1px;
+    }
+  }
+}

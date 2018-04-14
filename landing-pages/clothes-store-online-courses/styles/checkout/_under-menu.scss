@@ -1,0 +1,36 @@
+.under-menu-wrapper {
+  width: 100%;
+  background-color: #f8f3f4;
+}
+
+.under-menu {
+  width: 1140px;
+  margin: 0 auto;
+  height: 148px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .arrivals {
+    margin-left: 10px;
+    font-family: $main-font;
+    color: $pink-color;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+
+  .breadcrumbs {
+    font-family: $main-font;
+    color: #636363;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-right: -13px;
+    .last-crumb {
+      color: $pink-color;
+      font-weight: 700;
+    }
+  }
+}

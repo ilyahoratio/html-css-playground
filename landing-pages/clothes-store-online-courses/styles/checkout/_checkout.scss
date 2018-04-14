@@ -1,0 +1,247 @@
+.checkout-page-wrapper {
+  width: 100%;
+  padding-bottom: 93px;
+}
+
+.checkout-page {
+  padding-top: 36px;
+  width: 1140px;
+  background: white;
+  margin: 0 auto;
+
+  // list-style-type: decimal-leading-zero;
+  // margin-left: -2px;
+
+  .shipping {
+    padding-top: 30px;
+    padding-bottom: 24px;
+    color: #222222;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 0px;
+    padding-left: 13px;
+  }
+
+  .shipping:first-child {
+    padding-top: 50px;
+    padding-left: 13px;
+    padding-bottom: 0px;
+  }
+  .check3 {
+    padding-top: 29px;
+    padding-bottom: 25px;
+  }
+
+  .check4 {
+    padding-top: 28px;
+    padding-bottom: 27px;
+  }
+
+  .check5 {
+    padding-top: 26px;
+    padding-bottom: 28px;
+  }
+
+  .check6 {
+    padding-top: 25px;
+    padding-bottom: 29px;
+  }
+}
+
+.shipping-wrapper {
+  display: flex;
+  height: 458px;
+  margin-left: 15px;
+  margin-right: -13px;
+  border-bottom: 0.5px solid #e8e8e8;
+}
+
+.checkout-section {
+  border-bottom: 1px solid #e8e8e8;
+  margin-left: -23px;
+  margin-right: -13px;
+}
+
+.guest-or-reg {
+  display: inline-block;
+  width: 295px;
+  margin-left: 23px;
+
+  fieldset {
+    padding: 1.02em 0.3em 0.625em;
+    border-color: transparent;
+  }
+
+  h3 {
+    color: $black-color;
+    font-family: $main-font;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  input + span {
+    padding-left: 10px;
+    color: $black-color;
+    font-family: $main-font;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  input {
+    width: 13px;
+    height: 14px;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 14.5px !important;
+  }
+
+  span + h3 {
+    margin-top: 29px;
+    margin-left: -1px;
+    margin-bottom: 8px;
+    margin-bottom: 7px;
+  }
+
+  .register-text {
+    margin-top: 28px;
+    margin-bottom: 12px;
+  }
+
+  p.subheading {
+    padding-bottom: 16px;
+  }
+
+  p.subheading + p {
+    margin-left: -3px;
+    margin-bottom: 11px;
+  }
+
+  p.subheading + p + p {
+    margin-left: -3px;
+    margin-bottom: 35px;
+  }
+
+  p {
+    margin-top: -4px;
+    margin-left: -1px;
+    color: #b3b2b2;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    i {
+      margin-right: 2px;
+    }
+  }
+
+  button {
+    width: 180px;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.already-reg {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 265px;
+  h3 {
+    color: $black-color;
+    font-family: $main-font;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-top: -1px;
+    margin-left: -1px;
+    color: #b3b2b2;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  input {
+    width: 383px;
+    height: 39px;
+    margin-bottom: 9px;
+  }
+
+  label {
+    margin-top: 8px;
+    margin-left: -2px;
+    margin-bottom: 10px;
+    color: #222222;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+
+  label:after {
+    content: "*";
+    font-size: 20px;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 2px;
+    color: red;
+  }
+
+  label[for="pass"]:after {
+    margin-left: 4px;
+  }
+
+  .red-req {
+    color: #ff0d0d;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-left: 1px;
+    margin-bottom: 29px;
+  }
+  button {
+    text-align: left;
+    padding-left: 53px;
+    margin-left: -1px;
+    margin-right: 3px;
+    width: 180px;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  button + label {
+    color: #222222;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: none;
+    display: inline-block;
+    position: relative;
+    bottom: 39px;
+    left: 212px;
+  }
+
+  button + label:after {
+    content: "";
+  }
+}
