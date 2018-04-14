@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.loader-balls {
+  position: relative;
+  display: flex;
+}
+span {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: fuchsia;
+  margin: 5px;
+}
+span:nth-child(1) {
+  animation: scalish 1.8s ease-in-out -1.68s infinite;
+}
+span:nth-child(2) {
+  animation: scalish 1.8s ease-in-out -3.36s infinite;
+}
+span:nth-child(3) {
+  animation: scalish 1.8s ease-in-out -5.04s infinite;
+}
+span:nth-child(4) {
+  animation: scalish 1.8s ease-in-out -6.72s infinite;
+}
+span:nth-child(5) {
+  animation: scalish 1.8s ease-in-out -8.4s infinite;
+}
+span:nth-child(6) {
+  animation: scalish 1.8s ease-in-out -10.08s infinite;
+}
+@keyframes scalish {
+  0% {
+    transform: scale(0) translateY(50px) translateX(60px);
+    opacity: 0;
+  }
+  1% {
+    opacity: 0.1;
+  }
+  50% {
+    transform: scale(1.4) translateY(-40px) translateX(40px);
+    opacity: 1;
+    margin: 7px;
+  }
+  99% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(0) translateY(60px) translateX(60px);
+    opacity: 0;
+  }
+}
