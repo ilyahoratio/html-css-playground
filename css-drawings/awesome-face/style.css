@@ -1,0 +1,116 @@
+.face-wrapper {
+  position:relative;
+  top: 130px;
+  left: 130px;
+}
+
+.face-circle {
+  width: 270px;
+  height: 270px;
+  background: gold;
+  border-radius: 50%;
+  border: solid black 12px;
+}
+
+.upper-rim {
+  width: 266px;
+  height: 12px;
+  background: black;
+  position:absolute;
+  top:68px;
+  left:10px;
+}
+
+.left-glass {
+  width: 90px;
+  height: 55px;
+  border-radius: 0% 0% 90px 90px;
+  border: solid black 12px;
+  background: #161616;
+  position:absolute;
+  top:68px;
+  left: 13px;
+  overflow: hidden;
+}
+
+.right-glass {
+  width: 90px;
+  height: 55px;
+  border-radius: 0% 0% 90px 90px;
+  border: solid black 12px;
+  background: #161616;
+  position:absolute;
+  top:68px;
+  left: 127px;
+  overflow: hidden;
+}
+
+.left-glass-tint {
+  width: 60px;
+  height: 17px;
+  background: #d0d0d0;
+  position: absolute;
+  transform: rotate(-78deg);
+  top:15px;
+  left:9px;
+  overflow: hidden;
+}
+
+.right-glass-tint {
+  width: 60px;
+  height: 17px;
+  background: #d0d0d0;
+  position: absolute;
+  transform: rotate(-78deg);
+  top:18px;
+  left:14px;
+}
+
+.mouth-wrapper {
+  position: absolute;
+}
+
+.upper-line-mouth {
+  width: 200px;
+  height: 12px;
+  background: black;
+  position: absolute;
+  bottom:120px;
+  left: 35px;
+  z-index: 1;
+}
+
+.oval-mouth-mask {
+  width: 285px;
+  height: 123px;
+  background: transparent;
+  border-radius:0 0 123px 123px;
+  position: absolute;
+  bottom:9px;
+  left:5px;
+  overflow: hidden;
+}
+
+.oval-mouth {
+  width: 175px;
+  height: 150px;
+  border: 12px solid black;
+  background-color: #881846;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 30px;
+  left: 38.5px;
+  transform: rotate(20deg);
+  overflow: hidden;
+}
+
+.tongue-mouth {
+  width:100px;
+  height: 100px;
+  background: #f6c0d8;
+  border-radius: 50%;
+  position: absolute;
+  top:100px;
+  left: 90px;
+}
+
